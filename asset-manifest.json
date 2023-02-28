@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Gerenciador-de-Vendas-e-Estoque/static/css/main.f48cc302.css",
+    "main.js": "/Gerenciador-de-Vendas-e-Estoque/static/js/main.e2fbe925.js",
+    "static/media/logoReal.png": "/Gerenciador-de-Vendas-e-Estoque/static/media/logoReal.cfcd0a812bb723161a78.png",
+    "static/media/logo.png": "/Gerenciador-de-Vendas-e-Estoque/static/media/logo.2133e4113d05310e8027.png",
+    "index.html": "/Gerenciador-de-Vendas-e-Estoque/index.html",
+    "main.f48cc302.css.map": "/Gerenciador-de-Vendas-e-Estoque/static/css/main.f48cc302.css.map",
+    "main.e2fbe925.js.map": "/Gerenciador-de-Vendas-e-Estoque/static/js/main.e2fbe925.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f48cc302.css",
+    "static/js/main.e2fbe925.js"
+  ]
+}
