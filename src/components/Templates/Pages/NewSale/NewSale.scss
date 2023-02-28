@@ -1,0 +1,180 @@
+.saleAction {
+  height: 100%;
+  width: 100%;
+
+  h3 {
+    color: var(--secondary);
+  }
+
+  .FormArea {
+    height: 500px;
+    border-radius: 25px;
+    background-color: var(--primary-800);
+
+    form {
+      width: 100%;
+
+      .holder {
+        border-radius: 20px;
+        background-color: var(--primary-500);
+
+        color: var(--secondary);
+
+        border: 1px solid var(--secondary);
+      }
+
+      input {
+        height: 40px;
+
+        border: 1px solid var(--secondary);
+        border-radius: 20px;
+
+        height: 40px;
+
+        background-color: var(--primary-500);
+
+        color: var(--secondary);
+
+        &::placeholder {
+          color: var(--secondary);
+        }
+      }
+
+      .btns {
+        .btnCancel {
+          background-color: red;
+          color: var(--white);
+
+          &:hover {
+            background-color: red;
+            color: var(--white);
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+
+  .btn {
+    border-radius: 15px;
+  }
+
+  .btnAdd {
+    background-color: green;
+    color: var(--white);
+
+    a {
+      text-decoration: none;
+      color: var(--white);
+    }
+
+    &:hover {
+      background-color: green !important;
+      color: var(--white) !important;
+    }
+  }
+
+  .cart {
+    height: 100%;
+
+    .list {
+      list-style-type: none;
+      text-decoration: none;
+
+      &::-webkit-scrollbar {
+        width: 3px;
+      }
+
+      &::-webkit-scrollbar-track {
+        border-radius: 15px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--primary-500);
+        border: none;
+        border-radius: 20px;
+      }
+
+      .itemList {
+        max-height: 380px;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+          width: 3px;
+        }
+
+        &::-webkit-scrollbar-track {
+          border-radius: 15px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: var(--primary-500);
+          border: none;
+          border-radius: 20px;
+        }
+
+        li {
+          .item {
+            .itemName {
+              font-size: 1rem;
+              font-weight: 800;
+              color: var(--secondary);
+            }
+
+            .btn {
+              color: red;
+
+              &:active {
+                outline: none;
+                border: none;
+              }
+            }
+          }
+
+          .itemInfo {
+            font-weight: 600;
+            color: var(--secondary);
+          }
+
+          .itemPrices {
+            color: var(--secondary);
+          }
+
+          hr {
+            height: 1px;
+            background-image: linear-gradient(
+              to right,
+              var(--primary-500),
+              var(--secondary),
+              var(--primary-500)
+            );
+          }
+        }
+      }
+
+      .data {
+        input, select {
+          height: 35px !important;
+
+          border: 1px solid var(--secondary);
+          border-radius: 20px;
+
+          height: 40px;
+
+          background-color: var(--primary-500);
+
+          color: var(--secondary);
+
+          &::placeholder {
+            color: var(--secondary);
+          }
+        }
+      }
+
+      .total {
+        font-weight: 800;
+        color: var(--secondary);
+      }
+    }
+  }
+}

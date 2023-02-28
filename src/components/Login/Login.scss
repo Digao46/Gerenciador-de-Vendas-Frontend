@@ -1,0 +1,99 @@
+section {
+  height: 100vh !important;
+  width: 100%;
+
+  .formLoginArea {
+    height: auto;
+    padding: 20px 0;
+    background-color: var(--primary-500);
+    box-shadow: 0px 1px 5px rgba(112, 111, 111, 0.15);
+
+    border-radius: 8px;
+
+    span {
+      color: var(--secondary);
+    }
+
+    h1 {
+      background: linear-gradient(var(--secondary), #fad580);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-size: 54px;
+    }
+
+    form {
+      max-width: 300px;
+      width: 100%;
+
+      .formContainer {
+        position: relative;
+
+        input {
+          border-radius: 8px;
+          width: 100%;
+          padding: 10px;
+          font-size: 1rem;
+
+          background-color: var(--primary-500);
+          color: var(--secondary);
+
+          outline: none;
+          border: 2px solid var(--secondary);
+
+          &:focus {
+            border: none;
+            outline: 2px solid var(--secondary);
+          }
+
+          &:focus + span,
+          &:valid + span {
+            top: -12px;
+            left: 14px;
+            font-size: 1.1rem;
+            padding: 0 10px;
+            color: var(--secondary);
+            background-color: var(--primary-500);
+          }
+        }
+
+        span {
+          position: absolute;
+          top: 12px;
+          left: 35px;
+          font-size: 0.9rem;
+          letter-spacing: 0.05em;
+          pointer-events: none;
+          font-weight: 600;
+          font-family: sans-serif;
+          transition: 0.4s;
+          color: var(--secondary);
+        }
+      }
+    }
+
+    .buttons {
+      .btn {
+        background-color: var(--secondary);
+        color: var(--primary-500);
+
+        &:hover {
+          color: var(--black);
+        }
+      }
+
+      .separation {
+        background: linear-gradient(
+          to right,
+          var(--primary-500),
+          var(--secondary),
+          var(--primary-500)
+        );
+        border-radius: 10px !important;
+        height: 2px;
+        width: 100%;
+      }
+    }
+  }
+}

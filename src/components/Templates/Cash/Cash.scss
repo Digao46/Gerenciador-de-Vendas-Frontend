@@ -1,0 +1,37 @@
+section {
+  height: 100%;
+  width: 100%;
+
+  .cashControl {
+    height: 180px;
+    border-radius: 5px;
+    color: var(--white);
+
+    background: linear-gradient(to right, #e6c779a7, #6f591f);
+
+    .salesInfo {
+      height: 85%;
+
+      .salesValue {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .salesPeriod {
+        font-weight: 300;
+        font-size: 1rem;
+      }
+    }
+
+    .cardFooter {
+      height: 15%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.352);
+
+      .salesQuantity {
+        font-size: 1rem;
+        font-weight: 200;
+      }
+    }
+  }
+}

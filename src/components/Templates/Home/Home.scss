@@ -1,0 +1,66 @@
+section {
+  height: 100%;
+  width: 100%;
+
+  .card {
+    height: 180px;
+    border-radius: 5px;
+    color: var(--white);
+
+    .counter {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+    }
+
+    .btn {
+      width: 100px;
+      border-radius: 20px;
+      background-color: var(--primary-500);
+
+      a {
+        text-decoration: none;
+        color: var(--secondary);
+        font-size: 1rem;
+
+        &:hover &:active &::after {
+          color: var(--black);
+        }
+      }
+
+      &:hover {
+        background-color: var(--primary-800);
+
+        a {
+          font-weight: 500;
+        }
+      }
+    }
+
+    i {
+      font-size: 3rem;
+    }
+  }
+
+  .sales {
+    background: linear-gradient(to right, #e6c779a7, #826314);
+  }
+
+  .storage {
+    background: linear-gradient(to right, rgb(73, 123, 239), rgb(41, 41, 88));
+  }
+
+  .cashRegister {
+    background: linear-gradient(to right, rgb(41, 147, 208), rgb(6, 82, 121));
+  }
+
+  .transparent {
+    color: transparent;
+  }
+}

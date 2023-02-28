@@ -1,0 +1,205 @@
+section {
+  height: 100%;
+  width: 100%;
+
+  .infoText {
+    p {
+      color: var(--secondary);
+    }
+  }
+
+  .formArea {
+    form {
+      input {
+        border: none;
+        border-radius: 4px;
+        height: 40px;
+
+        background-color: var(--primary-500);
+        color: var(--secondary);
+
+        &::placeholder {
+          color: var(--secondary);
+        }
+      }
+
+      .btn {
+        border: none;
+        border-radius: 4px;
+
+        background-color: var(--primary-500);
+        color: var(--secondary);
+
+        i {
+          font-size: 1rem;
+        }
+
+        &:hover {
+          color: #dfb64f;
+
+          background-color: var(--primary-500);
+        }
+      }
+    }
+  }
+
+  .cardTotalOpened {
+    background-color: var(--primary-500);
+    height: 70vh !important;
+
+    .totalLabel {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: var(--secondary);
+    }
+
+    .divValue {
+      .moneyLabel {
+        font-size: 1rem;
+        font-weight: 500;
+      }
+
+      .totalValue {
+        font-size: 1.7rem;
+        color: var(--secondary);
+      }
+    }
+
+    .btnFinish {
+      height: 40px;
+      font-size: 0.9rem;
+
+      background-color: var(--primary-500);
+      border: 1px solid var(--secondary);
+      border-radius: 30px;
+
+      &:hover {
+        box-shadow: 0.5px 0.5px 3px var(--secondary);
+      }
+    }
+  }
+
+  .mainDivOpened {
+    height: 70vh;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 15px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--primary-500);
+      border: none;
+      border-radius: 20px;
+    }
+
+    .sale {
+      background-color: var(--primary-500);
+      height: 120px;
+
+      color: var(--secondary);
+
+      .dateLabel,
+      .hourLabel {
+        font-size: 0.8rem;
+        font-weight: 400;
+
+        i {
+          font-size: 0.8rem;
+        }
+      }
+
+      .totalLabel {
+        font-size: 0.8rem;
+        font-weight: 400;
+      }
+
+      .totalValue {
+        font-size: 1.7rem;
+
+        .moneyLabel {
+          font-size: 1rem;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .products {
+      background-color: var(--primary-500);
+      height: 120px;
+
+      .title {
+        .itemsLabel {
+          font-size: 0.8rem;
+          font-weight: 400;
+          color: var(--secondary);
+        }
+      }
+
+      .productsList {
+        height: auto;
+        min-height: 50%;
+        max-height: 68%;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+          width: 3px;
+        }
+
+        &::-webkit-scrollbar-track {
+          border-radius: 15px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: var(--white);
+          border: none;
+          border-radius: 20px;
+        }
+
+        .productArea {
+          height: 18px;
+
+          .productName {
+            font-size: 0.8rem;
+            color: var(--secondary);
+
+            white-space: nowrap !important;
+            text-overflow: ellipsis !important;
+          }
+
+          .soldQuantity {
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--secondary);
+
+            .unity {
+              font-weight: 400;
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+
+    .finishAction {
+      height: 120px;
+      background-color: var(--primary-500);
+      border-radius: 5px;
+
+      i {
+        color: rgb(1, 255, 1) !important;
+        font-size: 2.4rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: var(--secondary);
+        margin: 0;
+      }
+    }
+  }
+}

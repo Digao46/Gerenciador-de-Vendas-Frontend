@@ -1,0 +1,50 @@
+.userAction {
+  height: 100%;
+  width: 100%;
+
+  h3 {
+    color: var(--secondary);
+  }
+
+  .FormArea {
+    height: 500px;
+    border-radius: 25px;
+    background-color: var(--primary-800);
+
+    form {
+      width: 100%;
+
+      input {
+        border: 1px solid var(--secondary);
+        border-radius: 20px;
+
+        height: 40px;
+
+        background-color: var(--primary-500);
+
+        color: var(--secondary);
+
+        &::placeholder {
+          color: var(--secondary);
+        }
+      }
+
+      .btns {
+        .btn {
+          border-radius: 15px;
+        }
+
+        .btnDel {
+          background-color: rgb(131, 131, 5);
+          color: var(--white);
+          font-size: 0.9rem;
+        }
+
+        .btnCancel {
+          background-color: red;
+          color: var(--white);
+        }
+      }
+    }
+  }
+}

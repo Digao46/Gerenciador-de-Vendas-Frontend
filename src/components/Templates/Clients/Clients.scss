@@ -1,0 +1,84 @@
+section {
+  height: 100%;
+  width: 100%;
+
+  .notFound {
+    height: 85%;
+
+    .infoText {
+      p {
+        color: var(--secondary);
+      }
+    }
+  }
+
+  .formArea {
+    form {
+      input {
+        border: none;
+        border-radius: 4px;
+
+        background-color: var(--primary-500);
+        color: var(--secondary);
+
+        &::placeholder {
+          color: var(--secondary);
+        }
+      }
+
+      .btn {
+        border: none;
+        border-radius: 4px;
+
+        background-color: var(--primary-500);
+        color: var(--secondary);
+
+        i {
+          font-size: 1rem;
+        }
+
+        &:hover {
+          color: #dfb64f;
+
+          background-color: var(--primary-500);
+        }
+      }
+    }
+  }
+
+  .table {
+    th {
+      color: var(--white) !important;
+      border: solid 1px var(--secondary);
+    }
+    tbody {
+      tr {
+        td {
+          color: var(--white) !important;
+          border: solid 1px var(--secondary);
+
+          .action {
+            height: 100%;
+          }
+          button {
+            i {
+              font-size: 1.3rem;
+            }
+
+            .edit {
+              color: green;
+            }
+
+            .delete {
+              color: red;
+            }
+
+            &:active {
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
