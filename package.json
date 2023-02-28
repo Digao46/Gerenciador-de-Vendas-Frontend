@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Digao46.github.io/Gerenciador-de-Vendas-e-Estoque/",
+  "homepage": "https://Digao46.github.io/Gerenciador-de-Vendas-Frontend/#/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
