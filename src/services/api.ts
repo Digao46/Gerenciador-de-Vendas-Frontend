@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// const url = "http://localhost:8080"; // Url Teste
+const url = process.env.REACT_APP_URL;
 
 const apiStorage = axios.create({
   baseURL: url,
